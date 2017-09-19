@@ -2,6 +2,8 @@
 ## 经常用到的命令
 1. mount  //192.168.0.25/linuxsir /mnt/linuxShare/
 2. git pull --rebase origin master
+3. 安装docker docker命令
+4. 安装gocode
 
 
 
