@@ -1,5 +1,9 @@
 
-## 技术细节
+## 经常用到的命令
+1. mount  //192.168.0.25/linuxsir /mnt/linuxShare/
+2. git pull --rebase origin master
+
+
 
 1. 本站完全开源，放在coding.net上，大家共同修改，将通过daocloud.io持续集成自动构建docker镜像并部署在容器中，无需服务器。
 2. 网站内容采用markdown，通过mkdocs生成HTML，是一个纯静态的网站。
