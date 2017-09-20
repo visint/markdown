@@ -4,12 +4,18 @@
 2. git pull --rebase origin master
 3. 安装docker docker命令
 4. 安装gocode
+5. 端口号9091-9099
+![opkg install](images/gee-opkg-install.png)
 
 
-
-1. 本站完全开源，放在coding.net上，大家共同修改，将通过daocloud.io持续集成自动构建docker镜像并部署在容器中，无需服务器。
-2. 网站内容采用markdown，通过mkdocs生成HTML，是一个纯静态的网站。
-3. 为提高国内下载速度，OpenWrt SDK、opkg软件源等文件放在七牛云储存国内CDN上。
+## 安装markdown写作环境
+1. 先安装docker 环境命令为  curl -sSL https://get.daocloud.io/docker | sh
+2. 下载 docker 虚拟机 git clone https://github.com/visint/myDocker
+3. 进入 /myDocker/jybseconddocker/business# make
+4. 修改Makefile 文件 run 命令下的 mnt目录对应的目录/home/jiang/
+5. 在目录/home/jiang/ 下运行 git clone https://github.com/visint/markdown
+                            git clone https://github.com/visint/liveing
+6. 修改了markdown 里面的文件需要生成新的文档命令 docker exec -it business /mnt/markdown/build.sh,docker exec -it business /mnt/liveing/build.sh                             
 
 ## 为开源做贡献
 
