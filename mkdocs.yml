@@ -31,7 +31,7 @@ pages:
 - 关于我们: 'about.md'
 theme: 'flatly'
 repo_url: 'http://jiang_yi_bo.io/'
-repo_name: '更多'
+repo_name: '技术文档'
 site_favicon: favicon.ico
 google_analytics: ['UA-63908544-1', 'jiang_yi_bo']
 copyright: <a rel="nofollow" href="http://www.miitbeian.gov.cn/">广ICP备15020382号-1</a>
